@@ -5,11 +5,14 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: 'file-loader'
+      } ,
       {
         test: /\.html$/,
         use: [
@@ -19,8 +22,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },

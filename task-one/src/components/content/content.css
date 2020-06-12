@@ -1,0 +1,47 @@
+body {
+  background-color: #232323;
+}
+.movie-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.genres {
+  cursor: pointer;
+  color: white;
+  margin-left: 2rem;
+}
+
+.movie-count {
+  color: white;
+  margin-left: 3rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.sortby-span {
+  color: white;
+}
+
+.sortby {
+  padding-right: 3rem;
+}
+
+.sort {
+  margin-left: 1rem;
+  border: none;
+  font-size: 1.3em;
+  width: 10rem;
+  background: none;
+  color: rgb(143, 142, 142);
+}
+
+.filters-hr{
+    width: 90rem;
+}
