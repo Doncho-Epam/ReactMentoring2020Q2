@@ -2,7 +2,10 @@ import React from "react";
 import "./content.css";
 import Card from "../shared-components/movie-card/card";
 
-function Content() {
+function Content(props) {
+  function loadMoviesDetails() {
+    props.setShowDetails(true);
+  }
   return (
     <div className="main-list">
       <div className="filters">
@@ -31,48 +34,56 @@ function Content() {
           name="Fast & Furious"
           genre="Action"
           year="2009"
+          onClick={loadMoviesDetails}
         />
         <Card
           image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
           name="Fast & Furious"
           genre="Action"
           year="2009"
-        />{" "}
-        <Card
-          image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
-          name="Fast & Furious"
-          genre="Action"
-          year="2009"
+          onClick={loadMoviesDetails}
         />
         <Card
           image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
           name="Fast & Furious"
           genre="Action"
           year="2009"
+          onClick={loadMoviesDetails}
         />
         <Card
           image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
           name="Fast & Furious"
           genre="Action"
           year="2009"
+          onClick={loadMoviesDetails}
         />
         <Card
           image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
           name="Fast & Furious"
           genre="Action"
           year="2009"
+          onClick={loadMoviesDetails}
         />
         <Card
           image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
           name="Fast & Furious"
           genre="Action"
           year="2009"
+          onClick={loadMoviesDetails}
         />
         <Card
           image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
           name="Fast & Furious"
           genre="Action"
           year="2009"
+          onClick={loadMoviesDetails}
+        />
+        <Card
+          image="https://upload.wikimedia.org/wikipedia/en/8/8f/Fast_and_Furious_Poster.jpg"
+          name="Fast & Furious"
+          genre="Action"
+          year="2009"
+          onClick={loadMoviesDetails}
         />
       </div>
     </div>

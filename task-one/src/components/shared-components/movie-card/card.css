@@ -6,6 +6,7 @@
 .image {
   width: 310px;
   height: 450px;
+  cursor: pointer;
 }
 
 .movie-info {
