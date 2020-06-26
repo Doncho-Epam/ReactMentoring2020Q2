@@ -1,0 +1,13 @@
+.search-label{
+    align-self: flex-start;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    display: block;
+}
+
+.input-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}

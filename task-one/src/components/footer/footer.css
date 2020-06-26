@@ -1,0 +1,14 @@
+.footer-logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #f65261;
+}
+
+.footer{
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    z-index: 9999;
+    padding: 1rem 0;
+}
